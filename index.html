@@ -22,7 +22,7 @@
         body {
             background-color: #ffffff;
             color: #090909;
-            padding-top: 150px;
+            padding-top:150px;
         }
 
         a {
@@ -46,11 +46,12 @@
             box-shadow: 0 5px 20px rgba(0,0,0,0.5);
         }
 
-        .logo img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-        }
+      .logo img {
+    width: 140px;
+    margin-top:20px;
+    height: auto;
+    display: block;
+}
 
         .nav-links {
             list-style: none;
@@ -101,12 +102,16 @@
         }
 
         @media (max-width: 768px) {
+
+            .nav{
+                background: rgba(0,0,0,0.95);
+            }
             .nav-links {
                 position: absolute;
                 top: 150px;
                 left: 0;
                 width: 100%;
-                background: #000;
+                background:rgba(0,0,0,0.95);
                 flex-direction: column;
                 align-items: center;
                 gap: 20px;
@@ -122,6 +127,13 @@
                 display: none;
             }
 
+
+             .logo img {
+    width:120px;
+    margin-top:20px;
+    height: auto;
+    display: block;
+}
             .hamburger {
                 display: block;
             }
@@ -313,7 +325,7 @@
 
 <nav>
     <div class="logo">
-        <img src="img/image (2).jpg" alt="Logo">
+        <img src="img/image.png" alt="Logo">
     </div>
 
     <ul class="nav-links" id="navLinks">
