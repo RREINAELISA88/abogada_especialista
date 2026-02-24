@@ -66,20 +66,32 @@
             color: #d4af37;
         }
 
-        .social-btn {
-            font-size: 22px;
-            color: #d4af37;
-            border: 2px solid #d4af37;
-            padding: 10px;
-            border-radius: 50%;
-            transition: 0.3s ease;
-        }
 
-        .social-btn:hover {
-            background: #d4af37;
-            color: #000;
-            transform: scale(1.1);
-        }
+    .social-btn {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background:  #d4af37; 
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.social-btn i {
+    font-weight: 900; /* Más grosor visual al icono */
+}
+
+.social-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+       
+
+       
 
         .hamburger {
             display: none;
@@ -116,12 +128,12 @@
         }
 
         /* ===== HERO ===== */
-        .hero {
+           .hero {
             height: calc(100vh - 150px);
             background: 
-                linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') 
-                center/cover no-repeat;
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') 
+            center/cover no-repeat;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -129,32 +141,32 @@
             padding: 20px;
         }
 
-        .hero h1 {
+           .hero h1 {
             font-size: 55px;
             margin-bottom: 20px;
             color: white;
         }
 
-        .hero p {
+            .hero p {
             font-size: 20px;
             margin-bottom: 30px;
             color: white;
             font-weight: 500;
         }
 
-        .btn {
+            .btn {
             border: 2px solid #fff;
             padding: 15px 30px;
             background: #d4af37;
             font-weight: bold;
             transition: 0.3s;
             color: #fff;
-        }
+            }
 
         .btn:hover {
             background: #fff;
             color: #000;
-        }
+          }
 
         section {
             padding: 90px 40px;
@@ -301,7 +313,7 @@
 
 <nav>
     <div class="logo">
-        <img src="img/image (2).jpg" alt="Logo">
+        <img src="/img/image (2).jpg" alt="Logo">
     </div>
 
     <ul class="nav-links" id="navLinks">
@@ -329,7 +341,7 @@
 <section id="nosotros">
     <h2>Sobre Mi</h2>
     <div class="about-content">
-        <img src="img/IMG-20251222-WA0001 (2).webp" class="about-photo">
+        <img src="/img/IMG-20251222-WA0001 (2).webp" class="about-photo">
         <div class="about-text">
             Soy abogada especializada en derecho civil y familiar, con amplia experiencia en defensa jurídica personalizada y trato cercano al cliente.
         </div>
@@ -385,5 +397,4 @@
 </script>
 
 </body>
-
 </html>
